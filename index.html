@@ -184,6 +184,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 .api-row input{flex:1;font-size:13px;padding:6px 10px;border:1px solid #EF9F27;border-radius:6px;outline:none;background:#fffdf7;color:#333}
 .api-row button{font-size:12px;padding:5px 14px;border:1px solid #854F0B;border-radius:6px;background:#fff;color:#854F0B;cursor:pointer;white-space:nowrap}
 
+/* GitHub Sync */
+.gh-toggle-btn{font-size:11px;padding:3px 10px;border:1px solid #ddd;border-radius:6px;background:#fff;color:#555;cursor:pointer;margin-left:auto;float:right}
+.gh-toggle-btn:hover{background:#f5f5f3}
+.gh-fields{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.gh-inp{font-size:12px;padding:6px 10px;border:1px solid #e0e0e0;border-radius:6px;outline:none;background:#fafaf8;color:#333}
+.gh-inp:focus{border-color:#aaa}
+.gh-action-btn{font-size:12px;padding:5px 12px;border:1px solid #185FA5;border-radius:6px;background:#EAF3FF;color:#185FA5;cursor:pointer}
+.gh-action-btn:hover{background:#d4e8ff}
+.gh-clear-btn{font-size:12px;padding:5px 12px;border:1px solid #e0e0e0;border-radius:6px;background:#fff;color:#aaa;cursor:pointer}
+@media(max-width:600px){.gh-fields{grid-template-columns:1fr}}
+
 /* Export bar */
 .export-bar{display:flex;align-items:center;gap:8px;margin-bottom:1rem;flex-wrap:wrap}
 .export-label{font-size:12px;color:#999}
@@ -250,6 +261,42 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   <button class="export-btn export-pdf" onclick="exportPDF()">⬇ PDF</button>
   <button class="export-btn export-excel" onclick="exportExcel()">⬇ Excel</button>
   <button class="export-btn export-ppt" onclick="exportPPT()">⬇ PPT 簡報文字稿</button>
+</div>
+
+<!-- GitHub 同步 -->
+<div class="card" id="gh-card">
+  <div class="card-title">☁️ GitHub 雲端同步
+    <span class="card-hint">（團隊共用同一份數據）</span>
+    <button class="gh-toggle-btn" onclick="toggleGHSetup()">設定</button>
+  </div>
+  <div id="gh-setup" style="display:none;margin-top:10px">
+    <div style="font-size:12px;color:#888;margin-bottom:10px;line-height:1.7">
+      需要填入 GitHub Personal Access Token 和 Repo 資訊。
+      <a href="https://github.com/settings/tokens/new?scopes=repo&description=PM+Dashboard" target="_blank" style="color:#185FA5">點此生成 Token →</a>（勾選 <code>repo</code> 權限）
+    </div>
+    <div class="gh-fields">
+      <input class="gh-inp" id="gh-token" type="password" placeholder="GitHub Token (ghp_xxx...)" />
+      <input class="gh-inp" id="gh-owner" placeholder="GitHub 用戶名 (e.g. emilie)" />
+      <input class="gh-inp" id="gh-repo"  placeholder="Repo 名稱 (e.g. pm-dashboard)" />
+      <input class="gh-inp" id="gh-branch" placeholder="分支 (預設 main)" />
+    </div>
+    <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+      <button class="add-btn" onclick="saveGHConfig()">💾 儲存設定</button>
+      <button class="gh-action-btn" onclick="ghPull()">⬇ 從 GitHub 拉取最新</button>
+      <button class="gh-action-btn" onclick="ghPush()">⬆ 推送到 GitHub</button>
+      <button class="gh-clear-btn" onclick="clearGHConfig()">清除設定</button>
+    </div>
+  </div>
+  <div id="gh-status-bar" style="margin-top:8px;display:none">
+    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+      <span id="gh-status-text" style="font-size:12px;color:#888"></span>
+      <div style="display:flex;gap:8px">
+        <button class="gh-action-btn" onclick="ghPull()">⬇ 拉取</button>
+        <button class="gh-action-btn" onclick="ghPush()">⬆ 推送</button>
+        <span id="gh-sync-indicator" style="font-size:11px;color:#1D9E75;align-self:center"></span>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- 全年上線計劃 -->
@@ -1107,6 +1154,122 @@ function addMeeting(){
   di.value='';ti.value='';saveMeetings();renderMeetings();
 }
 
+// ── GitHub Sync ───────────────────────────────────────────────────────────────
+function toggleGHSetup(){
+  const el=document.getElementById('gh-setup');
+  const open=el.style.display==='none';
+  el.style.display=open?'block':'none';
+  if(open){
+    const cfg=getGHConfig();
+    if(cfg){
+      document.getElementById('gh-token').value=cfg.token||'';
+      document.getElementById('gh-owner').value=cfg.owner||'';
+      document.getElementById('gh-repo').value=cfg.repo||'';
+      document.getElementById('gh-branch').value=cfg.branch||'main';
+    }
+  }
+}
+function getGHConfig(){
+  try{return JSON.parse(localStorage.getItem('gh_config'));}catch(e){return null;}
+}
+function saveGHConfig(){
+  const token=document.getElementById('gh-token').value.trim();
+  const owner=document.getElementById('gh-owner').value.trim();
+  const repo=document.getElementById('gh-repo').value.trim();
+  const branch=document.getElementById('gh-branch').value.trim()||'main';
+  if(!token||!owner||!repo){alert('請填寫完整的 Token、用戶名和 Repo 名稱');return;}
+  localStorage.setItem('gh_config',JSON.stringify({token,owner,repo,branch}));
+  document.getElementById('gh-setup').style.display='none';
+  renderGHStatus();
+  alert('設定已儲存！建議先點「拉取」確認連線正常。');
+}
+function clearGHConfig(){
+  if(!confirm('確定清除 GitHub 設定？')) return;
+  localStorage.removeItem('gh_config');
+  renderGHStatus();
+  document.getElementById('gh-setup').style.display='none';
+}
+function renderGHStatus(){
+  const cfg=getGHConfig();
+  const bar=document.getElementById('gh-status-bar');
+  if(cfg){
+    bar.style.display='block';
+    const lastSync=localStorage.getItem('gh_last_sync');
+    const txt=lastSync?`已連接 ${cfg.owner}/${cfg.repo} ・ 上次同步：${new Date(lastSync).toLocaleString('zh-TW',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}`:`已連接 ${cfg.owner}/${cfg.repo}・尚未同步`;
+    document.getElementById('gh-status-text').textContent=txt;
+  } else {
+    bar.style.display='none';
+  }
+}
+function ghDataPath(cfg){ return `data/pm_data.json`; }
+
+async function ghPush(){
+  const cfg=getGHConfig();
+  if(!cfg){alert('請先設定 GitHub 連線資訊');return;}
+  const ind=document.getElementById('gh-sync-indicator');
+  ind.textContent='推送中…';
+  try{
+    const path=ghDataPath(cfg);
+    const apiBase=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}`;
+    const headers={'Authorization':`token ${cfg.token}`,'Content-Type':'application/json','Accept':'application/vnd.github+json'};
+    // get current sha if file exists
+    let sha='';
+    try{const r=await fetch(apiBase,{headers});if(r.ok){const d=await r.json();sha=d.sha;}}catch(e){}
+    // build payload
+    const payload={
+      projects, tasks, meetings,
+      updated: new Date().toISOString(),
+      updatedBy: localStorage.getItem('pm_name')||'PM'
+    };
+    const content=btoa(unescape(encodeURIComponent(JSON.stringify(payload,null,2))));
+    const body={message:`PM Dashboard sync ${new Date().toLocaleString('zh-TW')}`,content,branch:cfg.branch};
+    if(sha) body.sha=sha;
+    const res=await fetch(apiBase,{method:'PUT',headers,body:JSON.stringify(body)});
+    if(!res.ok){const e=await res.json();throw new Error(e.message||res.status);}
+    localStorage.setItem('gh_last_sync',new Date().toISOString());
+    ind.textContent='✅ 推送成功';
+    renderGHStatus();
+    setTimeout(()=>ind.textContent='',3000);
+  }catch(e){
+    ind.textContent='❌ 失敗：'+e.message;
+    console.error(e);
+  }
+}
+
+async function ghPull(){
+  const cfg=getGHConfig();
+  if(!cfg){alert('請先設定 GitHub 連線資訊');return;}
+  const ind=document.getElementById('gh-sync-indicator');
+  ind.textContent='拉取中…';
+  try{
+    const path=ghDataPath(cfg);
+    const url=`https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${path}?ref=${cfg.branch}&t=${Date.now()}`;
+    const headers={'Authorization':`token ${cfg.token}`,'Accept':'application/vnd.github+json'};
+    const res=await fetch(url,{headers});
+    if(res.status===404){
+      ind.textContent='⚠️ 尚無雲端數據，請先推送';
+      setTimeout(()=>ind.textContent='',4000);
+      return;
+    }
+    if(!res.ok){const e=await res.json();throw new Error(e.message||res.status);}
+    const d=await res.json();
+    const payload=JSON.parse(decodeURIComponent(escape(atob(d.content.replace(/\n/g,'')))));
+    if(payload.projects) projects=payload.projects;
+    if(payload.tasks)    tasks=payload.tasks;
+    if(payload.meetings) meetings=payload.meetings;
+    save();saveMeetings();
+    syncAutoTasks();
+    renderTL();renderProjects();renderTasks();renderMeetings();
+    localStorage.setItem('gh_last_sync',new Date().toISOString());
+    ind.textContent=`✅ 已拉取（${payload.updatedBy||''}更新於${payload.updated?new Date(payload.updated).toLocaleString('zh-TW',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}):''})`;
+    renderGHStatus();
+    setTimeout(()=>ind.textContent='',5000);
+  }catch(e){
+    ind.textContent='❌ 失敗：'+e.message;
+    console.error(e);
+  }
+}
+
 // ── Export ────────────────────────────────────────────────────────────────────
 function exportDate(){
   return new Date().toLocaleDateString('zh-TW',{year:'numeric',month:'long',day:'numeric'});
@@ -1324,7 +1487,7 @@ function renderGreeting(){
 // ── Init ──────────────────────────────────────────────────────────────────────
 document.getElementById('today').textContent=
   new Date().toLocaleDateString('zh-TW',{year:'numeric',month:'long',day:'numeric',weekday:'short'});
-load();loadMeetings();syncAutoTasks();renderTL();renderProjects();renderTasks();renderMeetings();renderGreeting();
+load();loadMeetings();syncAutoTasks();renderTL();renderProjects();renderTasks();renderMeetings();renderGreeting();renderGHStatus();
 if(localStorage.getItem('anthropic_key'))document.getElementById('api-box').style.display='none';
 </script>
 </body>
