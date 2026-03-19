@@ -1,0 +1,3543 @@
+{
+  "projects": [
+    {
+      "id": 99048,
+      "name": "Pizza",
+      "open": true,
+      "launchDate": "2026-03-31",
+      "subs": [
+        {
+          "id": 99049,
+          "text": "產品調研",
+          "owner": "Emilie",
+          "open": true,
+          "status": "done",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99050,
+              "text": "調研表",
+              "done": true
+            },
+            {
+              "id": 99051,
+              "text": "定價和成本設定",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": 99052,
+          "text": "產品研發",
+          "owner": "",
+          "open": true,
+          "status": "doing",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99053,
+              "text": "初稿配方",
+              "done": true
+            },
+            {
+              "id": 99054,
+              "text": "第二次調試",
+              "done": true
+            },
+            {
+              "id": 99055,
+              "text": "第三次調試",
+              "done": true
+            },
+            {
+              "id": 99056,
+              "text": "口味定稿",
+              "done": true
+            },
+            {
+              "id": 99057,
+              "text": "原料審核",
+              "done": false,
+              "assignee": "Emilie",
+              "deadline": "2026-03-23"
+            },
+            {
+              "id": 99058,
+              "text": "非國標原料審核",
+              "done": false,
+              "assignee": "Emilie",
+              "deadline": "2026-03-23"
+            },
+            {
+              "id": 99059,
+              "text": "尺寸定稿",
+              "done": true
+            },
+            {
+              "id": 99060,
+              "text": "交工廠落地",
+              "done": true
+            },
+            {
+              "id": 99061,
+              "text": "指定原料報價和對接代工廠",
+              "done": true
+            },
+            {
+              "id": 99062,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99063,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99064,
+          "text": "設計",
+          "owner": "Stella",
+          "open": true,
+          "status": "doing",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99065,
+              "text": "提供刀線",
+              "done": true
+            },
+            {
+              "id": 99066,
+              "text": "賣點信息整理",
+              "done": true
+            },
+            {
+              "id": 99067,
+              "text": "設計思路參考",
+              "done": true
+            },
+            {
+              "id": 99068,
+              "text": "標籤信息",
+              "done": true
+            },
+            {
+              "id": 99069,
+              "text": "69條碼",
+              "done": true
+            },
+            {
+              "id": 99070,
+              "text": "設計師溝通",
+              "done": true
+            },
+            {
+              "id": 99071,
+              "text": "設計師初稿",
+              "done": true
+            },
+            {
+              "id": 99072,
+              "text": "設計師修改",
+              "done": true
+            },
+            {
+              "id": 99073,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99074,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99075,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99076,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99077,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99078,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99079,
+          "text": "物料",
+          "owner": "Emilie",
+          "open": true,
+          "status": "doing",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99080,
+              "text": "內包確認、報價對比、採購 （给卷膜厂打样中）",
+              "done": false,
+              "assignee": "Emilie"
+            },
+            {
+              "id": 99081,
+              "text": "外包確認、報價對比、採購（无外包）",
+              "done": true,
+              "assignee": "Emilie"
+            },
+            {
+              "id": 99082,
+              "text": "其他物料、報價對比、採購（pizza刀尚未采购）",
+              "done": false,
+              "assignee": "Emilie"
+            },
+            {
+              "id": 99083,
+              "text": "成本核算",
+              "done": true
+            }
+          ]
+        },
+        {
+          "id": 99084,
+          "text": "上線前作業",
+          "owner": "",
+          "open": true,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99085,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99086,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99087,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99088,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99089,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99090,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99091,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99092,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99093,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99094,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99095,
+              "text": "詳情頁設計",
+              "done": false
+            },
+            {
+              "id": 99004,
+              "text": "与云仓确认打包方式运费报价",
+              "assignee": "",
+              "deadline": "",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99096,
+      "name": "三明治",
+      "open": false,
+      "launchDate": "2026-04-30",
+      "subs": [
+        {
+          "id": 99097,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99098,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99099,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99100,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99101,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99102,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99103,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99104,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99105,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99106,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99107,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99108,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99109,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99110,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99111,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99112,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99113,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99114,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99115,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99116,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99117,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99118,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99119,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99120,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99121,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99122,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99123,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99124,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99125,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99126,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99127,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99128,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99129,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99130,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99131,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99132,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99133,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99134,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99135,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99136,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99137,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99138,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99139,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99140,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99141,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99142,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99143,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99000,
+      "name": "饼干罐礼盒",
+      "open": true,
+      "launchDate": "2026-05-08",
+      "subs": [
+        {
+          "id": 99001,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99002,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99003,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99004,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "doing",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99005,
+              "text": "初稿配方",
+              "done": true
+            },
+            {
+              "id": 99006,
+              "text": "第二次調試",
+              "done": true
+            },
+            {
+              "id": 99007,
+              "text": "第三次調試",
+              "done": true
+            },
+            {
+              "id": 99008,
+              "text": "口味定稿",
+              "done": true
+            },
+            {
+              "id": 99009,
+              "text": "原料審核",
+              "done": true
+            },
+            {
+              "id": 99010,
+              "text": "非國標原料審核",
+              "done": true
+            },
+            {
+              "id": 99011,
+              "text": "产品尺寸定稿",
+              "done": true
+            },
+            {
+              "id": 99012,
+              "text": "交工廠落地",
+              "done": true
+            },
+            {
+              "id": 99013,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99014,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99015,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99016,
+          "text": "設計",
+          "owner": "Stella",
+          "open": true,
+          "status": "doing",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99017,
+              "text": "提供刀線",
+              "done": true,
+              "assignee": "Emilie",
+              "deadline": "2026-03-18"
+            },
+            {
+              "id": 99018,
+              "text": "賣點信息整理",
+              "done": true,
+              "assignee": "Emilie",
+              "deadline": "2026-03-19"
+            },
+            {
+              "id": 99019,
+              "text": "設計思路參考",
+              "done": true,
+              "assignee": "Emilie",
+              "deadline": "2026-03-19"
+            },
+            {
+              "id": 99020,
+              "text": "標籤信息",
+              "done": false,
+              "assignee": "Emilie"
+            },
+            {
+              "id": 99021,
+              "text": "69條碼",
+              "done": false,
+              "assignee": "Joann"
+            },
+            {
+              "id": 99022,
+              "text": "設計師溝通",
+              "done": false,
+              "assignee": "Stella"
+            },
+            {
+              "id": 99023,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99024,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99025,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99026,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99027,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99028,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99029,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99030,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ],
+          "deadline": "2026-04-10"
+        },
+        {
+          "id": 99031,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99032,
+              "text": "內包圆罐子",
+              "done": false
+            },
+            {
+              "id": 99033,
+              "text": "外包纸盒",
+              "done": false
+            },
+            {
+              "id": 99034,
+              "text": "其他物料：纸片、封口贴、热缩膜",
+              "done": false
+            },
+            {
+              "id": 99035,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99036,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99037,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99038,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99039,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99040,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99041,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99042,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99043,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99044,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99045,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99046,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99047,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99192,
+      "name": "国王饼",
+      "open": false,
+      "launchDate": "",
+      "subs": [
+        {
+          "id": 99193,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99194,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99195,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99196,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99197,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99198,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99199,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99200,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99201,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99202,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99203,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99204,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99205,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99206,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99207,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99208,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99209,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99210,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99211,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99212,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99213,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99214,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99215,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99216,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99217,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99218,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99219,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99220,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99221,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99222,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99223,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99224,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99225,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99226,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99227,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99228,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99229,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99230,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99231,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99232,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99233,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99234,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99235,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99236,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99237,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99238,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99239,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99240,
+      "name": "巧克力曲奇",
+      "open": false,
+      "launchDate": "",
+      "subs": [
+        {
+          "id": 99241,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99242,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99243,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99244,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99245,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99246,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99247,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99248,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99249,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99250,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99251,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99252,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99253,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99254,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99255,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99256,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99257,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99258,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99259,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99260,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99261,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99262,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99263,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99264,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99265,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99266,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99267,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99268,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99269,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99270,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99271,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99272,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99273,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99274,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99275,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99276,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99277,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99278,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99279,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99280,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99281,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99282,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99283,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99284,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99285,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99286,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99287,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99000,
+      "name": "蓝莓巴斯克",
+      "open": false,
+      "launchDate": "",
+      "subs": [
+        {
+          "id": 99001,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99002,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99003,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99004,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99005,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99006,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99007,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99008,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99009,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99010,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99011,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99012,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99013,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99014,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99015,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99016,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99017,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99018,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99019,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99020,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99021,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99022,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99023,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99024,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99025,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99026,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99027,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99028,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99029,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99030,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99031,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99032,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99033,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99034,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99035,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99036,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99037,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99038,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99039,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99040,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99041,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99042,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99043,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99044,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99045,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99046,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99047,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99144,
+      "name": "无蔗糖巴斯克",
+      "open": true,
+      "launchDate": "2026-04-15",
+      "subs": [
+        {
+          "id": 99145,
+          "text": "產品調研",
+          "owner": "",
+          "open": true,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99146,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99147,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99148,
+          "text": "產品研發",
+          "owner": "",
+          "open": true,
+          "status": "doing",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99149,
+              "text": "初稿配方",
+              "done": true
+            },
+            {
+              "id": 99150,
+              "text": "第二次調試",
+              "done": true
+            },
+            {
+              "id": 99151,
+              "text": "第三次調試",
+              "done": true
+            },
+            {
+              "id": 99152,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99153,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99154,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99155,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99156,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99157,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99158,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99159,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99160,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99161,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99162,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99163,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99164,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99165,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99166,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99167,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99168,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99169,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99170,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99171,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99172,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99173,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99174,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99175,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99176,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99177,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99178,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99179,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99180,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99181,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99182,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99183,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99184,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99185,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99186,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99187,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99188,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99189,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99190,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99191,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99288,
+      "name": "凤梨酥",
+      "open": false,
+      "launchDate": "2026-08-31",
+      "subs": [
+        {
+          "id": 99289,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99290,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99291,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99292,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99293,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99294,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99295,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99296,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99297,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99298,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99299,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99300,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99301,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99302,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99303,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99304,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99305,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99306,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99307,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99308,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99309,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99310,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99311,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99312,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99313,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99314,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99315,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99316,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99317,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99318,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99319,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99320,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99321,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99322,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99323,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99324,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99325,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99326,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99327,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99328,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99329,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99330,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99331,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99332,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99333,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99334,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99335,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99000,
+      "name": "拿破仑酥",
+      "open": false,
+      "launchDate": "",
+      "subs": [
+        {
+          "id": 99001,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99002,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99003,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99004,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99005,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99006,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99007,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99008,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99009,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99010,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99011,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99012,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99013,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99014,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99015,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99016,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99017,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99018,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99019,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99020,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99021,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99022,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99023,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99024,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99025,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99026,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99027,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99028,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99029,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99030,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99031,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99032,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99033,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99034,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99035,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99036,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99037,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99038,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99039,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99040,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99041,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99042,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99043,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99044,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99045,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99046,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99047,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99144,
+      "name": "潘纳托尼",
+      "open": false,
+      "launchDate": "",
+      "subs": [
+        {
+          "id": 99145,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99146,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99147,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99148,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99149,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99150,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99151,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99152,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99153,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99154,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99155,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99156,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99157,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99158,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99159,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99160,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99161,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99162,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99163,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99164,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99165,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99166,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99167,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99168,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99169,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99170,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99171,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99172,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99173,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99174,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99175,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99176,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99177,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99178,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99179,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99180,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99181,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99182,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99183,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99184,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99185,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99186,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99187,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99188,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99189,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99190,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99191,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99048,
+      "name": "中秋节礼盒",
+      "open": false,
+      "launchDate": "",
+      "subs": [
+        {
+          "id": 99049,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99050,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99051,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99052,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99053,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99054,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99055,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99056,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99057,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99058,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99059,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99060,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99061,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99062,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99063,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99064,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99065,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99066,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99067,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99068,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99069,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99070,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99071,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99072,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99073,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99074,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99075,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99076,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99077,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99078,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99079,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99080,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99081,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99082,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99083,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99084,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99085,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99086,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99087,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99088,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99089,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99090,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99091,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99092,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99093,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99094,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99095,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99336,
+      "name": "冷冻蛋糕卷",
+      "open": true,
+      "launchDate": "",
+      "subs": [
+        {
+          "id": 99337,
+          "text": "產品調研",
+          "owner": "Emilie",
+          "open": true,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99338,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99339,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99340,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99341,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99342,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99343,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99344,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99345,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99346,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99347,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99348,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99349,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99350,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99351,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99352,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99353,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99354,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99355,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99356,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99357,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99358,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99359,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99360,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99361,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99362,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99363,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99364,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99365,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99366,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99367,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99368,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99369,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99370,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99371,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99372,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99373,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99374,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99375,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99376,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99377,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99378,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99379,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99380,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99381,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99382,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99383,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99096,
+      "name": "新年礼盒",
+      "open": false,
+      "launchDate": "",
+      "subs": [
+        {
+          "id": 99097,
+          "text": "產品調研",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99098,
+              "text": "調研表",
+              "done": false
+            },
+            {
+              "id": 99099,
+              "text": "定價和成本設定",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99100,
+          "text": "產品研發",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99101,
+              "text": "初稿配方",
+              "done": false
+            },
+            {
+              "id": 99102,
+              "text": "第二次調試",
+              "done": false
+            },
+            {
+              "id": 99103,
+              "text": "第三次調試",
+              "done": false
+            },
+            {
+              "id": 99104,
+              "text": "口味定稿",
+              "done": false
+            },
+            {
+              "id": 99105,
+              "text": "原料審核",
+              "done": false
+            },
+            {
+              "id": 99106,
+              "text": "非國標原料審核",
+              "done": false
+            },
+            {
+              "id": 99107,
+              "text": "尺寸定稿",
+              "done": false
+            },
+            {
+              "id": 99108,
+              "text": "交工廠落地",
+              "done": false
+            },
+            {
+              "id": 99109,
+              "text": "指定原料報價和對接代工廠",
+              "done": false
+            },
+            {
+              "id": 99110,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99111,
+              "text": "打樣確認",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99112,
+          "text": "設計",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99113,
+              "text": "提供刀線",
+              "done": false
+            },
+            {
+              "id": 99114,
+              "text": "賣點信息整理",
+              "done": false
+            },
+            {
+              "id": 99115,
+              "text": "設計思路參考",
+              "done": false
+            },
+            {
+              "id": 99116,
+              "text": "標籤信息",
+              "done": false
+            },
+            {
+              "id": 99117,
+              "text": "69條碼",
+              "done": false
+            },
+            {
+              "id": 99118,
+              "text": "設計師溝通",
+              "done": false
+            },
+            {
+              "id": 99119,
+              "text": "設計師初稿",
+              "done": false
+            },
+            {
+              "id": 99120,
+              "text": "設計師修改",
+              "done": false
+            },
+            {
+              "id": 99121,
+              "text": "設計師完稿",
+              "done": false
+            },
+            {
+              "id": 99122,
+              "text": "自行審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99123,
+              "text": "給代工廠品控審核包裝及標籤",
+              "done": false
+            },
+            {
+              "id": 99124,
+              "text": "印刷廠打樣",
+              "done": false
+            },
+            {
+              "id": 99125,
+              "text": "成本核算",
+              "done": false
+            },
+            {
+              "id": 99126,
+              "text": "與印刷廠定稿",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99127,
+          "text": "物料",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99128,
+              "text": "內包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99129,
+              "text": "外包確認、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99130,
+              "text": "其他物料、報價對比、採購",
+              "done": false
+            },
+            {
+              "id": 99131,
+              "text": "成本核算",
+              "done": false
+            }
+          ]
+        },
+        {
+          "id": 99132,
+          "text": "上線前作業",
+          "owner": "",
+          "open": false,
+          "status": "todo",
+          "launchDate": "",
+          "checks": [
+            {
+              "id": 99133,
+              "text": "代工協議（含代工、保密競業、陽光協議）",
+              "done": false
+            },
+            {
+              "id": 99134,
+              "text": "標籤審核：GB 28050-2025（營養標籤）",
+              "done": false
+            },
+            {
+              "id": 99135,
+              "text": "標籤審核：GB 7718-2025（標籤）",
+              "done": false
+            },
+            {
+              "id": 99136,
+              "text": "產品檢測報告",
+              "done": false
+            },
+            {
+              "id": 99137,
+              "text": "營養成分檢測報告",
+              "done": false
+            },
+            {
+              "id": 99138,
+              "text": "拍照",
+              "done": false
+            },
+            {
+              "id": 99139,
+              "text": "BD工作",
+              "done": false
+            },
+            {
+              "id": 99140,
+              "text": "中樣下單",
+              "done": false
+            },
+            {
+              "id": 99141,
+              "text": "中樣抽查",
+              "done": false
+            },
+            {
+              "id": 99142,
+              "text": "中樣拍照",
+              "done": false
+            },
+            {
+              "id": 99143,
+              "text": "詳情頁設計",
+              "done": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 99003,
+      "text": "[Pizza｜產品研發] 非國標原料審核",
+      "pri": "mid",
+      "done": false,
+      "autoRef": "auto_99058",
+      "deadline": "2026-03-23"
+    },
+    {
+      "id": 99002,
+      "text": "[Pizza｜產品研發] 原料審核",
+      "pri": "mid",
+      "done": false,
+      "autoRef": "auto_99057",
+      "deadline": "2026-03-23"
+    }
+  ],
+  "meetings": [
+    {
+      "id": 99000,
+      "date": "2026-03-18",
+      "title": "週會",
+      "open": false,
+      "agenda": "",
+      "decisions": "",
+      "actions": []
+    }
+  ],
+  "updated": "2026-03-19T06:16:07.223Z",
+  "updatedBy": "Emilie"
+}
