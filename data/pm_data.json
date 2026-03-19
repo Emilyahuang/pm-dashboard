@@ -3,7 +3,7 @@
     {
       "id": 99048,
       "name": "Pizza",
-      "open": true,
+      "open": false,
       "launchDate": "2026-03-31",
       "subs": [
         {
@@ -292,7 +292,7 @@
           "id": 99097,
           "text": "產品調研",
           "owner": "",
-          "open": false,
+          "open": true,
           "status": "todo",
           "launchDate": "",
           "checks": [
@@ -311,30 +311,30 @@
         {
           "id": 99100,
           "text": "產品研發",
-          "owner": "",
-          "open": false,
-          "status": "todo",
+          "owner": "代工厂",
+          "open": true,
+          "status": "doing",
           "launchDate": "",
           "checks": [
             {
               "id": 99101,
               "text": "初稿配方",
-              "done": false
+              "done": true
             },
             {
               "id": 99102,
               "text": "第二次調試",
-              "done": false
+              "done": true
             },
             {
               "id": 99103,
               "text": "第三次調試",
-              "done": false
+              "done": true
             },
             {
               "id": 99104,
               "text": "口味定稿",
-              "done": false
+              "done": true
             },
             {
               "id": 99105,
@@ -377,7 +377,7 @@
           "id": 99112,
           "text": "設計",
           "owner": "",
-          "open": false,
+          "open": true,
           "status": "todo",
           "launchDate": "",
           "checks": [
@@ -457,7 +457,7 @@
           "id": 99127,
           "text": "物料",
           "owner": "",
-          "open": false,
+          "open": true,
           "status": "todo",
           "launchDate": "",
           "checks": [
@@ -487,7 +487,7 @@
           "id": 99132,
           "text": "上線前作業",
           "owner": "",
-          "open": false,
+          "open": true,
           "status": "todo",
           "launchDate": "",
           "checks": [
@@ -553,7 +553,7 @@
     {
       "id": 99000,
       "name": "饼干罐礼盒",
-      "open": true,
+      "open": false,
       "launchDate": "2026-05-08",
       "subs": [
         {
@@ -580,7 +580,7 @@
           "id": 99004,
           "text": "產品研發",
           "owner": "",
-          "open": false,
+          "open": true,
           "status": "doing",
           "launchDate": "",
           "checks": [
@@ -659,7 +659,7 @@
             {
               "id": 99018,
               "text": "賣點信息整理",
-              "done": true,
+              "done": false,
               "assignee": "Emilie",
               "deadline": "2026-03-19"
             },
@@ -1639,72 +1639,58 @@
       "launchDate": "2026-04-15",
       "subs": [
         {
-          "id": 99145,
-          "text": "產品調研",
-          "owner": "",
-          "open": true,
-          "status": "todo",
-          "launchDate": "",
-          "checks": [
-            {
-              "id": 99146,
-              "text": "調研表",
-              "done": false
-            },
-            {
-              "id": 99147,
-              "text": "定價和成本設定",
-              "done": false
-            }
-          ]
-        },
-        {
           "id": 99148,
           "text": "產品研發",
-          "owner": "",
-          "open": true,
+          "owner": "Quin",
+          "open": false,
           "status": "doing",
           "launchDate": "",
           "checks": [
             {
               "id": 99149,
               "text": "初稿配方",
-              "done": true
+              "done": true,
+              "assignee": "Quin"
             },
             {
               "id": 99150,
               "text": "第二次調試",
-              "done": true
+              "done": true,
+              "assignee": "Quin"
             },
             {
               "id": 99151,
               "text": "第三次調試",
-              "done": true
+              "done": true,
+              "assignee": "Quin"
             },
             {
               "id": 99152,
               "text": "口味定稿",
-              "done": false
+              "done": true,
+              "assignee": "Quin",
+              "deadline": "2026-03-19"
             },
             {
               "id": 99153,
               "text": "原料審核",
-              "done": false
+              "done": true,
+              "assignee": "Quin",
+              "deadline": "2026-03-19"
             },
             {
               "id": 99154,
               "text": "非國標原料審核",
-              "done": false
-            },
-            {
-              "id": 99155,
-              "text": "尺寸定稿",
-              "done": false
+              "done": true,
+              "assignee": "Quin",
+              "deadline": "2026-03-19"
             },
             {
               "id": 99156,
               "text": "交工廠落地",
-              "done": false
+              "done": false,
+              "deadline": "2026-03-24",
+              "assignee": "Quin"
             },
             {
               "id": 99157,
@@ -1721,7 +1707,8 @@
               "text": "打樣確認",
               "done": false
             }
-          ]
+          ],
+          "deadline": "2026-03-31"
         },
         {
           "id": 99160,
@@ -1732,48 +1719,18 @@
           "launchDate": "",
           "checks": [
             {
-              "id": 99161,
-              "text": "提供刀線",
-              "done": false
-            },
-            {
               "id": 99162,
               "text": "賣點信息整理",
               "done": false
             },
             {
-              "id": 99163,
-              "text": "設計思路參考",
-              "done": false
-            },
-            {
               "id": 99164,
-              "text": "標籤信息",
+              "text": "標籤信息（记得增加代糖提示语：参考GB 28050-2025）",
               "done": false
             },
             {
               "id": 99165,
               "text": "69條碼",
-              "done": false
-            },
-            {
-              "id": 99166,
-              "text": "設計師溝通",
-              "done": false
-            },
-            {
-              "id": 99167,
-              "text": "設計師初稿",
-              "done": false
-            },
-            {
-              "id": 99168,
-              "text": "設計師修改",
-              "done": false
-            },
-            {
-              "id": 99169,
-              "text": "設計師完稿",
               "done": false
             },
             {
@@ -1783,7 +1740,7 @@
             },
             {
               "id": 99171,
-              "text": "給代工廠品控審核包裝及標籤",
+              "text": "代工廠品控審核包裝及標籤",
               "done": false
             },
             {
@@ -1794,11 +1751,6 @@
             {
               "id": 99173,
               "text": "成本核算",
-              "done": false
-            },
-            {
-              "id": 99174,
-              "text": "與印刷廠定稿",
               "done": false
             }
           ]
@@ -1841,11 +1793,6 @@
           "status": "todo",
           "launchDate": "",
           "checks": [
-            {
-              "id": 99181,
-              "text": "代工協議（含代工、保密競業、陽光協議）",
-              "done": false
-            },
             {
               "id": 99182,
               "text": "標籤審核：GB 28050-2025（營養標籤）",
@@ -3511,6 +3458,14 @@
   ],
   "tasks": [
     {
+      "id": 99000,
+      "text": "[饼干罐礼盒｜設計] 賣點信息整理",
+      "pri": "high",
+      "done": false,
+      "autoRef": "auto_99018",
+      "deadline": "2026-03-19"
+    },
+    {
       "id": 99003,
       "text": "[Pizza｜產品研發] 非國標原料審核",
       "pri": "mid",
@@ -3538,6 +3493,6 @@
       "actions": []
     }
   ],
-  "updated": "2026-03-19T06:29:32.413Z",
-  "updatedBy": "Emilie"
+  "updated": "2026-03-19T07:42:07.386Z",
+  "updatedBy": "PM"
 }
