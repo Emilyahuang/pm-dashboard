@@ -3,14 +3,14 @@
     {
       "id": 99048,
       "name": "Pizza",
-      "open": false,
+      "open": true,
       "launchDate": "2026-03-31",
       "subs": [
         {
           "id": 99049,
           "text": "產品調研",
           "owner": "Emilie",
-          "open": true,
+          "open": false,
           "status": "done",
           "launchDate": "",
           "checks": [
@@ -29,9 +29,9 @@
         {
           "id": 99052,
           "text": "產品研發",
-          "owner": "",
-          "open": true,
-          "status": "doing",
+          "owner": "Emilioe",
+          "open": false,
+          "status": "done",
           "launchDate": "",
           "checks": [
             {
@@ -57,14 +57,14 @@
             {
               "id": 99057,
               "text": "原料審核",
-              "done": false,
+              "done": true,
               "assignee": "Emilie",
               "deadline": "2026-03-23"
             },
             {
               "id": 99058,
               "text": "非國標原料審核",
-              "done": false,
+              "done": true,
               "assignee": "Emilie",
               "deadline": "2026-03-23"
             },
@@ -86,12 +86,12 @@
             {
               "id": 99062,
               "text": "成本核算",
-              "done": false
+              "done": true
             },
             {
               "id": 99063,
               "text": "打樣確認",
-              "done": false
+              "done": true
             }
           ]
         },
@@ -150,7 +150,7 @@
             },
             {
               "id": 99074,
-              "text": "自行審核包裝及標籤",
+              "text": "自行審核包裝及標籤（品名/净含量/正文的字符要求呢）",
               "done": false
             },
             {
@@ -213,13 +213,13 @@
           "text": "上線前作業",
           "owner": "",
           "open": true,
-          "status": "todo",
+          "status": "doing",
           "launchDate": "",
           "checks": [
             {
               "id": 99085,
               "text": "代工協議（含代工、保密競業、陽光協議）",
-              "done": false
+              "done": true
             },
             {
               "id": 99086,
@@ -285,7 +285,7 @@
     {
       "id": 99096,
       "name": "三明治",
-      "open": false,
+      "open": true,
       "launchDate": "2026-04-30",
       "subs": [
         {
@@ -3458,28 +3458,34 @@
   ],
   "tasks": [
     {
-      "id": 99000,
-      "text": "[饼干罐礼盒｜設計] 賣點信息整理",
+      "id": 1,
+      "text": "撰寫 PRD：推薦系統",
       "pri": "high",
-      "done": false,
-      "autoRef": "auto_99018",
-      "deadline": "2026-03-19"
+      "done": false
     },
     {
-      "id": 99003,
-      "text": "[Pizza｜產品研發] 非國標原料審核",
-      "pri": "mid",
-      "done": false,
-      "autoRef": "auto_99058",
-      "deadline": "2026-03-23"
+      "id": 2,
+      "text": "與設計師 review wireframe",
+      "pri": "high",
+      "done": false
     },
     {
-      "id": 99002,
-      "text": "[Pizza｜產品研發] 原料審核",
+      "id": 3,
+      "text": "更新 Sprint 看板",
       "pri": "mid",
-      "done": false,
-      "autoRef": "auto_99057",
-      "deadline": "2026-03-23"
+      "done": false
+    },
+    {
+      "id": 4,
+      "text": "完成競品分析報告",
+      "pri": "low",
+      "done": true
+    },
+    {
+      "id": 5,
+      "text": "準備週五 stakeholder 簡報",
+      "pri": "mid",
+      "done": false
     }
   ],
   "meetings": [
@@ -3493,6 +3499,6 @@
       "actions": []
     }
   ],
-  "updated": "2026-03-19T07:42:07.386Z",
-  "updatedBy": "PM"
+  "updated": "2026-03-25T07:28:52.913Z",
+  "updatedBy": "Emilie"
 }
