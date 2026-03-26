@@ -3,7 +3,7 @@
     {
       "id": 99048,
       "name": "Pizza",
-      "open": true,
+      "open": false,
       "launchDate": "2026-03-31",
       "subs": [
         {
@@ -660,7 +660,7 @@
             {
               "id": 99018,
               "text": "賣點信息整理",
-              "done": false,
+              "done": true,
               "assignee": "Emilie",
               "deadline": "2026-03-19"
             },
@@ -1461,7 +1461,7 @@
           "text": "設計",
           "owner": "",
           "open": false,
-          "status": "todo",
+          "status": "doing",
           "launchDate": "",
           "checks": [
             {
@@ -1472,7 +1472,7 @@
             {
               "id": 99018,
               "text": "賣點信息整理",
-              "done": false
+              "done": true
             },
             {
               "id": 99019,
@@ -1643,7 +1643,7 @@
           "id": 99148,
           "text": "產品研發",
           "owner": "Quin",
-          "open": false,
+          "open": true,
           "status": "doing",
           "launchDate": "",
           "checks": [
@@ -1689,14 +1689,15 @@
             {
               "id": 99156,
               "text": "交工廠落地",
-              "done": false,
+              "done": true,
               "deadline": "2026-03-24",
               "assignee": "Quin"
             },
             {
               "id": 99157,
               "text": "指定原料報價和對接代工廠",
-              "done": false
+              "done": true,
+              "assignee": "Quin"
             },
             {
               "id": 99158,
@@ -2212,7 +2213,7 @@
           "text": "設計",
           "owner": "",
           "open": false,
-          "status": "todo",
+          "status": "doing",
           "launchDate": "",
           "checks": [
             {
@@ -2223,7 +2224,7 @@
             {
               "id": 99018,
               "text": "賣點信息整理",
-              "done": false
+              "done": true
             },
             {
               "id": 99019,
@@ -3460,7 +3461,7 @@
       "id": 99000,
       "name": "猫咪恋人",
       "open": true,
-      "launchDate": "",
+      "launchDate": "2026-06-01",
       "subs": [
         {
           "id": 99001,
@@ -3487,13 +3488,15 @@
           "text": "產品研發",
           "owner": "",
           "open": true,
-          "status": "todo",
+          "status": "doing",
           "launchDate": "",
           "checks": [
             {
               "id": 99005,
-              "text": "初稿配方",
-              "done": false
+              "text": "初稿配方（维京打样初步确认可行）",
+              "done": true,
+              "assignee": "维京研发",
+              "deadline": "2026-03-26"
             },
             {
               "id": 99006,
@@ -3552,7 +3555,7 @@
           "text": "設計",
           "owner": "",
           "open": false,
-          "status": "todo",
+          "status": "doing",
           "launchDate": "",
           "checks": [
             {
@@ -3563,7 +3566,7 @@
             {
               "id": 99018,
               "text": "賣點信息整理",
-              "done": false
+              "done": true
             },
             {
               "id": 99019,
@@ -3732,34 +3735,22 @@
   ],
   "tasks": [
     {
-      "id": 1,
-      "text": "撰寫 PRD：推薦系統",
+      "id": 99004,
+      "text": "🚀 專案「Pizza」即將上線",
       "pri": "high",
-      "done": false
+      "done": false,
+      "autoRef": "auto_proj_99048",
+      "deadline": "2026-03-31",
+      "autoType": "proj"
     },
     {
-      "id": 2,
-      "text": "與設計師 review wireframe",
+      "id": 99002,
+      "text": "[无蔗糖巴斯克] 產品研發（Quin）",
       "pri": "high",
-      "done": false
-    },
-    {
-      "id": 3,
-      "text": "更新 Sprint 看板",
-      "pri": "mid",
-      "done": false
-    },
-    {
-      "id": 4,
-      "text": "完成競品分析報告",
-      "pri": "low",
-      "done": true
-    },
-    {
-      "id": 5,
-      "text": "準備週五 stakeholder 簡報",
-      "pri": "mid",
-      "done": false
+      "done": false,
+      "autoRef": "auto_sub_99148",
+      "deadline": "2026-03-31",
+      "autoType": "sub"
     }
   ],
   "meetings": [
@@ -3793,6 +3784,6 @@
       ]
     }
   ],
-  "updated": "2026-03-26T08:16:20.120Z",
+  "updated": "2026-03-26T08:32:10.256Z",
   "updatedBy": "Emilie"
 }
